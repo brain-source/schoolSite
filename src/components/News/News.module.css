@@ -1,0 +1,29 @@
+.news_container {
+	max-width: 1024px;
+	line-height: 30px;
+	font-size: 14px;
+	width: 100%;
+	margin: 0px auto;
+	font-family: sans-serif;
+	justify-content: center;
+	text-align: center;
+
+
+}
+
+.title {
+	display: flex;
+	font-size: 25px;
+	justify-content: center;
+}
+
+.stars {
+	max-width: 400px;
+	font-size: 30px;
+	margin: 0px auto;
+	margin-top: 50px; 
+}
+
+.red {
+	color: red;
+}

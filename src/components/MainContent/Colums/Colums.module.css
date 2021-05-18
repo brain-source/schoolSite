@@ -1,0 +1,91 @@
+.columnInner {
+	padding-top: 10px;
+	max-width: 350px;
+	color: #060098;
+	width: 100%;
+	height: 500px;
+	background: #b1bdf2;
+	float: right
+}
+
+@media screen and (max-width: 970px) {
+	.block .image {
+		display: flex;
+		flex-direction: column;
+	}
+}
+.title {
+	position: relative;
+	top: 20px;
+	width: 200px;
+}
+
+.container {
+	max-width: 1148px;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.colums {
+	max-width: 100%;
+	height: 800px;
+}
+
+.colums li:hover {
+	color: grey;
+	font-size: 17px;
+	transition: 0.3s ease;
+
+}
+
+.colums li {
+	color: #15002b;
+	max-width: 260px;
+	cursor: pointer;
+	margin: 0px auto;
+	padding-left: 10px;
+	font-family: sans-serif;
+	padding-top: 5px;
+	list-style: none;
+	border-top: 0.5px solid #3f424d; 
+	border-bottom: 0.5px solid #3f424d; 
+	height: 53px;
+	transition: 0.3s ease;
+}
+
+
+.block {
+	display: flex;
+	margin: 40px 80px 40px 0px;
+	width: 420px;
+	height: 280px;
+	background: grey;
+}
+
+.top {
+	display: flex;
+}
+.bottom {
+	display: flex;
+}
+
+.block {
+	display: inline-block;
+	max-width: 100%;
+	height: 260px;
+	transition: 0.3s ease;
+	overflow: hidden;
+}
+
+.image {
+	height: 260px;
+}
+
+.block .image {
+	transition: 1s;
+	display: block;
+}
+
+.block .image:hover {
+	transform: scale(1.2);
+}

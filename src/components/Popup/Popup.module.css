@@ -1,0 +1,95 @@
+.popup {
+	visibility: hidden;
+	transition: 0.3s ease;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0px 500px 0px 0px;
+}
+
+.popup:target {
+	visibility: visible;
+	transition: 0.2s ease;
+}
+
+.popup:target .popupContent {
+	transform: translate(0px, 0px);
+}
+
+.area {
+	width: 100%;
+	height: 100%;
+}
+
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 10px 10px 0px 0px;
+}
+
+
+.title {
+	width: 1200px;
+	font-size: 40px;
+	margin: 0px auto;
+}
+
+.text {
+	width: 400px;
+	margin: 0px auto;
+}
+
+.header {
+	height: 100px;
+	background: blue;
+}
+
+.image {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 600px;
+}
+
+.image img {
+	height: 400px;
+}
+
+.blockPopup {
+	background: #000;
+	width: 300px;
+	height: 300px;
+}
+
+.blockContainer {
+	padding-left: 300px;
+	position: relative;
+
+}
+
+.popupContent {
+	transition: 0.2s ease;
+	display: flex;
+	opacity: 1;
+	position: relative;
+	top: 130px;
+	padding: 20px;
+	z-index: 999;
+	max-width: 1500px;
+	height: 400px;
+	background: #f0f7f3;
+	margin: 0px auto;
+	transform: translate(0px, -200%);
+}
+
+.popupContent:active {
+	position: relative;
+	top: 20px;
+}
+
+
+

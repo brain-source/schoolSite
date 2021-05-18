@@ -1,0 +1,28 @@
+.allCollums {
+	line-height: 50px;
+	max-width: 1024px;
+	margin: 0px auto;
+
+}
+
+.hrefs {
+	display: flex;
+	flex-direction: column;
+	line-height: 30px;
+	text-decoration: underline;
+}
+
+.InclusiveStudy {
+	max-width: 800px;
+	margin: 0px auto;
+}
+
+
+.booling {
+	z-index: 4;
+}
+
+.title {
+	margin: 20px 0px 20px 0px;
+	color: grey;
+}
